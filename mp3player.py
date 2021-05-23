@@ -23,7 +23,7 @@ master_frame.pack(pady=20)
 
 # creating sql connection
 try:
-    connection = mysql.connector.connect(host="localhost", user="root", passwd="aman2002")
+    connection = mysql.connector.connect(host="localhost", user="root", passwd="password")
     cursor = connection.cursor()
 
 except Error as err:
